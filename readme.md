@@ -1,4 +1,4 @@
-**Shastra - A Comprehensive Guide to Hindu Scriptures**
+****Shastra - A Comprehensive Guide to Hindu Scriptures****
 Shastra is a web-based platform that provides a comprehensive guide to Hindu scriptures, offering timeless wisdom and practical insights for a balanced and harmonious life. This project is built using HTML, CSS, and JavaScript, and features a responsive design with a user-friendly interface.
 
 **Features**
