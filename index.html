@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shastra</title>
+
+</head>
+<body>
+      <!----===== Boxicons CSS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--<title>Dashboard Sidebar Menu</title>-->
+</head>
+
+<body>
+  <nav class="sidebar close">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <img src="logo.png" alt="">
+        </span>
+
+        <div class="text logo-text">
+          <span class="name">Anon</span>
+          <span class="profession">My Website</span>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+      <div class="menu">
+
+        
+
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-home-alt icon'></i>
+              <span class="text nav-text">Home</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="library.html">
+              <i class='bx bx-book-reader icon'></i>
+              <span class="text nav-text">Library</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-conversation icon'></i>
+              <span class="text nav-text">Doubt Counter</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-video icon'></i>
+              <span class="text nav-text">Video lectures</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-photo-album icon'></i>
+              <span class="text nav-text">Famous Deities</span>
+            </a>
+          </li>
+
+          
+
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+       
+        
+
+      </div>
+    </div>
+
+  </nav>
+
+  <!-------------home pagee--------------------------->
+
+  <section class="home">
+    <div class="text">Home Page</div>
+    <div class='container' id='container'>
+        <div class='hero' id='hero'>
+          <div class='hero-content'>
+            <h1>The entire world is the teacher to the<span class='highlight'> intelligent</span>.<br>
+            <span>and foe to the <span class='highlight'>unintelligent.</span></span></h1>
+            <div class='description'>Shastras play a pivotal role in every Hindu's life, offering timeless guidance in philosophy, ethics, and rituals. These sacred scriptures provide a compass for righteous living, imparting both spiritual wisdom and practical insights. Rooted in ancient knowledge, shastras act as a source of strength and connection with the divine, shaping a balanced and harmonious life for individuals while preserving cultural heritage.</div>
+            <div class'buttons'><button id='scroll-button'>START EXPLORING OUR LIBRARY</button>
+            </div>
+          </div>
+                  <i class='fa fa-angle-double-down' id='scroll-icon'></i>
+      
+          <div class='gradient-overlay'></div>
+        </div>
+        
+        </div>
+      </div>
+  </section>
+
+  <script>
+    const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+    toggle.addEventListener("click", () => {
+      sidebar.classList.toggle("close");
+    })
+    searchBtn.addEventListener("click", () => {
+      sidebar.classList.remove("close");
+    })
+    modeSwitch.addEventListener("click", () => {
+      body.classList.toggle("dark");
+      if (body.classList.contains("dark")) {
+        modeText.innerText = "Light mode";
+      } else {
+        modeText.innerText = "Dark mode";
+      }
+    });
+  </script>
+</body>
+</html>

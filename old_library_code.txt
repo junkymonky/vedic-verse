@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body>
+      <!----===== Boxicons CSS ===== -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--<title>Dashboard Sidebar Menu</title>-->
+</head>
+
+<body>
+  <nav class="sidebar close">
+    <header>
+      <div class="image-text">
+        <span class="image">
+          <img src="logo.png" alt="">
+        </span>
+
+        <div class="text logo-text">
+          <span class="name">Anon</span>
+          <span class="profession">My Website</span>
+        </div>
+      </div>
+
+      <i class='bx bx-chevron-right toggle'></i>
+    </header>
+
+    <div class="menu-bar">
+      <div class="menu">
+
+        
+
+        <ul class="menu-links">
+          <li class="nav-link">
+            <a href="index.html">
+              <i class='bx bx-home-alt icon'></i>
+              <span class="text nav-text">Home</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-book-reader icon'></i>
+              <span class="text nav-text">Library</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-conversation icon'></i>
+              <span class="text nav-text">Doubt Counter</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-video icon'></i>
+              <span class="text nav-text">Video lectures</span>
+            </a>
+          </li>
+
+          <li class="nav-link">
+            <a href="#">
+              <i class='bx bx-photo-album icon'></i>
+              <span class="text nav-text">Famous Deities</span>
+            </a>
+          </li>
+
+          
+
+        </ul>
+      </div>
+
+      <div class="bottom-content">
+       
+        
+
+      </div>
+    </div>
+
+  </nav>
+
+  <!-------------home pagee--------------------------->
+
+    <section class="main">
+      <div class="heading">Shastras</div>
+      <div class="column" onclick="window.location.href='your_destination_page_1.html'">
+          <div class="column-content">
+              <img src="book.svg" alt="Icon 1" class="column-icon">
+              <div class="column-text">
+                  <h2>Gitas</h2>
+                  <p>Bhagavad Gita • Ashtavakra • Gyaneshwari • Ishwar • Etc</p>
+              </div>
+          </div>
+      </div>
+      <div class="column" onclick="window.location.href='your_destination_page_2.html'">
+          <div class="column-content">
+              <img src="book.svg" alt="Icon 2" class="column-icon">
+              <div class="column-text">
+                  <h2>Ramayanas</h2>
+                  <p>Valmiki • Tulasi • Bhushundi • Yogvashishtha • Kamba • Etc</p>
+              </div>
+          </div>
+      </div>
+      <div class="column" onclick="window.location.href='your_destination_page_3.html'">
+          <div class="column-content">
+              <img src="book.svg" alt="Icon 3" class="column-icon">
+              <div class="column-text">
+                  <h2>Mahabharat</h2>
+                  <p>Vaishmpayana Muni to Sages. The biggest epic poem in ...</p>
+              </div>
+          </div>
+      </div>
+      <div class="column" onclick="window.location.href='your_destination_page_4.html'">
+          <div class="column-content">
+              <img src="book.svg" alt="Icon 4" class="column-icon">
+              <div class="column-text">
+                  <h2>Puranas</h2>
+                  <p>Srimad Bhagavatam • Shiv Puran • Agni Puran • Etc</p>
+              </div>
+          </div>
+      </div>
+      <div class="column" onclick="window.location.href='your_destination_page_5.html'">
+          <div class="column-content">
+              <img src="book.svg" alt="Icon 5" class="column-icon">
+              <div class="column-text">
+                  <h2>Upa Puranas</h2>
+                  <p>Ganesh Puran • Narsimha Puran • Kalki Puran • Etc</p>
+              </div>
+          </div>
+      </div>
+      <div class="column" onclick="window.location.href='your_destination_page_5.html'">
+        <div class="column-content">
+            <img src="book.svg" alt="Icon 5" class="column-icon">
+            <div class="column-text">
+                <h2>Vedas</h2>
+                <p>Rigveda • Yajurveda • Samveda • Atharva Veda Etc.</p>
+            </div>
+        </div>
+    </div>
+    <div class="column" onclick="window.location.href='your_destination_page_5.html'">
+      <div class="column-content">
+          <img src="book.svg" alt="Icon 5" class="column-icon">
+          <div class="column-text">
+              <h2>Upanishads</h2>
+              <p>Brihadaranyak • Taitarey • Mantrik • Aatma • Sarvasaar Etc.</p>
+          </div>
+      </div>
+  </div>
+
+  <div class="column" onclick="window.location.href='your_destination_page_5.html'">
+    <div class="column-content">
+        <img src="book.svg" alt="Icon 5" class="column-icon">
+        <div class="column-text">
+            <h2>Smritis</h2>
+            <p>Manusmriti • Yagyavalkya Smriti • Atri Smriti • Yama Smriti Etc.</p>
+        </div>
+    </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Upa Smriti</h2>
+          <p>Bharadvajah • Prajapati • Gobhil • Vishvamitra • Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Tantra Shastra</h2>
+          <p>Rudra Yamala • Brahma Yamala • Skanda Yamala Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Samhitas</h2>
+          <p>Dhanurved Samhita • Ravan Samhita • Etc</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Darshanas</h2>
+          <p>Charvak Darshan • Jain Darshan • Bauddha Darshan Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Nitis</h2>
+          <p>Chanakya Niti • Vidura Niti • Sukra Niti • Kamandakiya Niti Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Sutras</h2>
+          <p>Brahma Sutra • Aapastamba Dharma Sutra Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Agamas</h2>
+          <p>Shaiva Agamas • Mrugendra Agama • Kamika Agama •Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column" onclick="window.location.href='your_destination_page_5.html'">
+  <div class="column-content">
+      <img src="book.svg" alt="Icon 5" class="column-icon">
+      <div class="column-text">
+          <h2>Shastra</h2>
+          <p>Vaimanika Shastra • Rasayan Shastra Etc.</p>
+      </div>
+  </div>
+</div>
+
+<div class="column-container acharyas-column">
+  <div class="heading">Acharyas and Gurus</div>
+  <div class="column" onclick="window.location.href='your_destination_page_6.html'">
+      <div class="column-content">
+          <img src="guru.svg" alt="Icon 6" class="column-icon">
+          <div class="column-text">
+              <h2>Ramakrishna Paramahansa</h2>
+              <p>Teachings: "Jiva is Shiva" • "Serve Jiva, Serve Shiva" • Etc</p>
+          </div>
+      </div>
+  </div>
+  <!-- Add more columns for Acharyas and Gurus here -->
+</div>
+  </section>
+</section>
+
+    
+
+  <script>
+    const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+    toggle.addEventListener("click", () => {
+      sidebar.classList.toggle("close");
+    })
+    searchBtn.addEventListener("click", () => {
+      sidebar.classList.remove("close");
+    })
+    modeSwitch.addEventListener("click", () => {
+      body.classList.toggle("dark");
+      if (body.classList.contains("dark")) {
+        modeText.innerText = "Light mode";
+      } else {
+        modeText.innerText = "Dark mode";
+      }
+    });
+  </script>
+</body>
+</html>
